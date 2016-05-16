@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<h1>hi!</h1>
+	<button id="button">click</button>
+	<h3 id="display"></h3>
+	<script src="server.js"></script>
+	
+	<script>
+		(function(){
+			console.log(this.location = "./Component2/index.html")
+			// this.location.href="index.htmld";
+			// var button = document.getElementById("button");
+			// var display = document.getElementById("display");
+			// var local = localStorage;
+			// console.log(local.getItem("my-data-response"))
+
+			// button.addEventListener("click",function(){
+			// 	console.log("clicked")
+			// 	var xhr = new XMLHttpRequest();
+			// 		xhr.open('GET', encodeURI('myData.json'));
+			// 		xhr.onload = function() {
+			// 		    if (xhr.status === 200) {
+			// 		    	var data = xhr.responseText
+			// 		    	local.setItem("my-data-response", data);
+			// 		        console.log(JSON.parse(data));
+			// 		    }
+			// 		    else {
+			// 		        alert('Request failed.  Returned status of ' + xhr.status);
+			// 		    }
+			// 		};
+			// 	xhr.send();
+			// })
+		})();
+	
+	</script>
+</body>
+</html>
